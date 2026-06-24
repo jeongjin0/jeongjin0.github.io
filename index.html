@@ -1,114 +1,133 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="google-site-verification" content="ByWalFaWwIlrtAP5FB6eLRw3moDhrhX5n20Y6aXtR-4" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Jeongjin's personal profile, publications, projects, research notes, and contact links."
+      content="Jeongjin Shin is an AI researcher and builder working on trustworthy AI, agentic AI, and practical software systems."
     />
-    <meta name="theme-color" content="#FBFAF7" />
-    <meta property="og:title" content="Jeongjin" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:title" content="Jeongjin Shin" />
     <meta
       property="og:description"
-      content="Personal profile for AI systems, publications, productivity tools, and practical software projects."
+      content="AI researcher and builder working on trustworthy AI, agentic AI, and practical software systems."
     />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="profile" />
     <meta property="og:url" content="https://jeongjin0.github.io/" />
     <meta property="og:image" content="https://github.com/jeongjin0.png" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Jeongjin" />
+    <meta name="twitter:title" content="Jeongjin Shin" />
     <meta
       name="twitter:description"
-      content="AI systems, publications, productivity tools, and practical software projects."
+      content="Trustworthy AI, agentic AI, backdoor attacks, and practical software systems."
     />
     <link rel="canonical" href="https://jeongjin0.github.io/" />
     <link rel="preconnect" href="https://github.com" />
     <link rel="stylesheet" href="./styles.css" />
-    <title>Jeongjin</title>
+    <title>Jeongjin Shin</title>
   </head>
   <body>
-    <header class="site-header" aria-label="Profile overview">
-      <nav class="nav" aria-label="Primary navigation">
-        <a class="brand" href="#top" aria-label="Jeongjin home">J</a>
-        <div class="nav-links">
-          <a href="#work">Work</a>
-          <a href="#publications">Papers</a>
-          <a href="#notes">Notes</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </nav>
-    </header>
-
-    <main id="top">
-      <section class="hero" aria-labelledby="profile-title">
-        <div class="hero-copy">
-          <p class="eyebrow">Personal profile</p>
-          <h1 id="profile-title">Jeongjin</h1>
-          <p class="lead">
-            I build practical AI systems, evaluation workflows, and product tools that
-            turn research-shaped ideas into usable software.
-          </p>
-          <div class="actions" aria-label="Profile links">
-            <a class="button primary" href="https://github.com/jeongjin0">GitHub</a>
-            <a class="button secondary" href="#work">Projects</a>
-          </div>
-        </div>
-
-        <aside class="profile-card" aria-label="Profile card">
+    <main class="container">
+      <header class="header" id="top">
+        <a class="portrait-link" href="#top" aria-label="Jeongjin Shin home">
           <img
-            class="avatar"
+            class="portrait"
             src="https://github.com/jeongjin0.png"
             width="160"
             height="160"
-            alt="Jeongjin GitHub profile avatar"
+            alt="Jeongjin Shin profile portrait"
           />
-          <div>
-            <p class="profile-name">Jeongjin</p>
-            <p class="profile-role">AI systems / Product engineering / Research tooling</p>
-          </div>
-          <dl class="quick-facts">
-            <div>
-              <dt>Focus</dt>
-              <dd>Applied AI</dd>
-            </div>
-            <div>
-              <dt>Base</dt>
-              <dd>Seoul</dd>
-            </div>
-            <div>
-              <dt>Mode</dt>
-              <dd>Build, test, ship</dd>
-            </div>
-          </dl>
-        </aside>
+        </a>
+        <div class="main-description">
+          <h1>Jeongjin Shin</h1>
+          <p>AI researcher and builder</p>
+          <p>Trustworthy AI / Agentic AI / Product engineering</p>
+          <p class="social-links" aria-label="Profile links">
+            <a href="https://github.com/jeongjin0" rel="me">GitHub</a>
+            <a href="https://github.com/jeongjin0?tab=repositories">Code</a>
+            <a href="https://drifty.so">Drifty</a>
+          </p>
+        </div>
+      </header>
+
+      <nav class="navbar" aria-label="Section navigation">
+        <a href="#bio">Bio</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#vita">Vita</a>
+        <a href="#links">Links</a>
+      </nav>
+
+      <section class="docs-section" id="bio" aria-labelledby="bio-title">
+        <h2 id="bio-title">Bio</h2>
+        <p>
+          I work on practical AI systems and research tooling, with interests in
+          trustworthy AI, agentic AI, backdoor attacks, and deep learning security.
+          I like building small systems with sharp feedback loops: clear metrics,
+          reproducible experiments, simple interfaces, and enough automation to make
+          the next iteration cheaper than the last one.
+        </p>
+        <p>
+          My recent work spans visual model evaluation workflows, productivity tools,
+          and infrastructure utilities for monitoring compute availability. I am also
+          building <a href="https://drifty.so">Drifty</a>.
+        </p>
       </section>
 
-      <section class="section" aria-labelledby="work">
-        <div class="section-heading">
-          <p class="eyebrow">Selected work</p>
-          <h2 id="work">Projects</h2>
-        </div>
-        <div class="project-grid">
-          <article class="project-card">
-            <p class="tag">AI evaluation</p>
+      <section class="docs-section" id="publications" aria-labelledby="publications-title">
+        <h2 id="publications-title">Publications</h2>
+        <p>
+          Selected papers are listed below. The newest version is linked when available.
+        </p>
+
+        <article class="paper">
+          <p class="title">
+            <a href="https://arxiv.org/abs/2411.14449">
+              Unlearn to Relearn Backdoors: Deferred Backdoor Functionality Attacks
+              on Deep Learning Models
+            </a>
+          </p>
+          <p><strong>Jeongjin Shin</strong></p>
+          <p><em>arXiv, 2024.</em></p>
+          <p class="paper-buttons">
+            <a class="button" href="https://arxiv.org/abs/2411.14449">Paper</a>
+          </p>
+        </article>
+
+        <article class="paper">
+          <p class="title">
+            <a href="https://ieeexplore.ieee.org/document/10647450/">
+              Mask-based Invisible Backdoor Attacks on Object Detection
+            </a>
+          </p>
+          <p><strong>Jeongjin Shin</strong></p>
+          <p><em>ICIP 2024.</em></p>
+          <p class="paper-buttons">
+            <a class="button" href="https://ieeexplore.ieee.org/document/10647450/">Paper</a>
+          </p>
+        </article>
+      </section>
+
+      <section class="docs-section" id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">Projects</h2>
+        <div class="project-list">
+          <article>
             <h3>Visual model review workflows</h3>
             <p>
-              Structured evaluation sheets and analysis tooling for comparing visual model
-              outputs with repeatable criteria.
+              Structured evaluation sheets and analysis tooling for comparing visual
+              model outputs with repeatable criteria.
             </p>
           </article>
-          <article class="project-card">
-            <p class="tag">Productivity</p>
+          <article>
             <h3>BodyTime</h3>
             <p>
-              A personal rhythm and screen-time assistant concept focused on turning device
-              behavior into clearer daily signals.
+              A personal rhythm and screen-time assistant concept focused on turning
+              device behavior into clearer daily signals.
             </p>
           </article>
-          <article class="project-card">
-            <p class="tag">Infrastructure</p>
+          <article>
             <h3>GPU availability monitor</h3>
             <p>
               Lightweight monitoring utilities for compute availability and notifications
@@ -118,64 +137,37 @@
         </div>
       </section>
 
-      <section class="section publications" aria-labelledby="publications">
-        <div class="section-heading">
-          <p class="eyebrow">Research</p>
-          <h2 id="publications">Publications</h2>
-        </div>
-        <ol class="publication-list">
+      <section class="docs-section" id="vita" aria-labelledby="vita-title">
+        <h2 id="vita-title">Vita</h2>
+        <ol class="vita-list">
           <li>
-            <time datetime="2024-11-10">2024.11.10</time>
-            <div>
-              <h3>
-                <a href="https://arxiv.org/abs/2411.14449">
-                  Unlearn to Relearn Backdoors: Deferred Backdoor Functionality
-                  Attacks on Deep Learning Models
-                </a>
-              </h3>
-              <p>arXiv / Nov 10, 2024</p>
-            </div>
+            <span class="time">Now</span>
+            <span><strong>Builder</strong>, Drifty and practical AI tools.</span>
           </li>
           <li>
-            <time datetime="2024-10-27">2024.10.27</time>
-            <div>
-              <h3>
-                <a href="https://ieeexplore.ieee.org/document/10647450/">
-                  Mask-based Invisible Backdoor Attacks on Object Detection
-                </a>
-              </h3>
-              <p>ICIP 2024 / Oct 27, 2024</p>
-            </div>
+            <span class="time">2024</span>
+            <span><strong>Research</strong>, backdoor attacks and deep learning security.</span>
+          </li>
+          <li>
+            <span class="time">Ongoing</span>
+            <span><strong>Engineering</strong>, evaluation workflows and automation.</span>
           </li>
         </ol>
       </section>
 
-      <section class="section split" aria-labelledby="notes">
-        <div>
-          <p class="eyebrow">Notes</p>
-          <h2 id="notes">Working style</h2>
-        </div>
-        <p class="body-copy">
-          I like small systems with sharp feedback loops: clear metrics, reproducible
-          experiments, simple interfaces, and enough automation to make the next iteration
-          cheaper than the last one.
+      <section class="docs-section" id="links" aria-labelledby="links-title">
+        <h2 id="links-title">Links</h2>
+        <p class="link-row">
+          <a href="https://github.com/jeongjin0" rel="me">GitHub</a>
+          <a href="https://github.com/jeongjin0?tab=repositories">Repositories</a>
+          <a href="https://drifty.so">Drifty</a>
         </p>
       </section>
 
-      <section class="section contact" aria-labelledby="contact">
-        <div>
-          <p class="eyebrow">Contact</p>
-          <h2 id="contact">Find me online</h2>
-        </div>
-        <div class="link-list">
-          <a href="https://github.com/jeongjin0">github.com/jeongjin0</a>
-          <a href="https://github.com/jeongjin0?tab=repositories">Repositories</a>
-        </div>
-      </section>
+      <footer class="footer">
+        <p>Jeongjin Shin</p>
+        <p><a href="https://jeongjin0.github.io/">jeongjin0.github.io</a></p>
+      </footer>
     </main>
-
-    <footer class="footer">
-      <p>&copy; <span id="year">2026</span> Jeongjin. Built on GitHub Pages.</p>
-    </footer>
   </body>
 </html>
