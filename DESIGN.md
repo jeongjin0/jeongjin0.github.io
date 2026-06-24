@@ -2,7 +2,7 @@
 
 ## 1. Atmosphere & Identity
 
-A restrained academic personal site inspired by the `msaveski/www_personal` structure: profile header, thin section navigation, concise bio, publication entries, project notes, vita, and links. The signature is low-friction readability: narrow measure, simple typography, thin rules, and almost no decorative styling.
+A restrained academic personal site inspired by the `msaveski/www_personal` structure: profile header, thin section navigation, concise bio, education, publication entries, and links. The signature is low-friction readability: narrow measure, simple typography, thin rules, and almost no decorative styling.
 
 ## 2. Color
 
@@ -78,7 +78,7 @@ All spacing derives from a base of 4px.
 
 - No nested cards.
 - Sections are separated by rules, not panels.
-- Publication and vita entries are lists of text, not tiles.
+- Publication and education entries are lists of text, not tiles.
 
 ## 5. Components
 
@@ -105,11 +105,6 @@ All spacing derives from a base of 4px.
 - Structure: ordered-list item with date range and institution/program details.
 - Variants: standard only.
 - Accessibility: text-first, no decorative logo dependency.
-
-### Project Entry
-
-- Structure: title and paragraph with a left rule.
-- Variants: standard only.
 
 ## 6. Motion & Interaction
 

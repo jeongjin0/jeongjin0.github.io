@@ -211,23 +211,7 @@ h3 {
   color: var(--accent-primary);
 }
 
-.project-list {
-  display: grid;
-  gap: var(--space-6);
-}
-
-.project-list article {
-  border-left: 2px solid var(--border-default);
-  padding-left: var(--space-4);
-}
-
-.project-list p {
-  margin-bottom: 0;
-  color: var(--text-secondary);
-}
-
-.education-list,
-.vita-list {
+.education-list {
   display: grid;
   gap: var(--space-3);
   padding: 0;
@@ -235,8 +219,7 @@ h3 {
   list-style: none;
 }
 
-.education-list li,
-.vita-list li {
+.education-list li {
   display: grid;
   grid-template-columns: 96px minmax(0, 1fr);
   gap: var(--space-4);
@@ -321,8 +304,7 @@ h3 {
     padding: var(--space-10) 0;
   }
 
-  .education-list li,
-  .vita-list li {
+  .education-list li {
     grid-template-columns: 1fr;
     gap: var(--space-1);
   }
