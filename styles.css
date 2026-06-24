@@ -89,25 +89,8 @@ h3 {
 }
 
 .header {
-  display: grid;
-  grid-template-columns: 160px minmax(0, 1fr);
-  gap: var(--space-8);
-  align-items: center;
   margin: 60px 0;
   text-align: left;
-}
-
-.portrait-link {
-  display: block;
-  color: inherit;
-}
-
-.portrait {
-  display: block;
-  width: 160px;
-  height: 160px;
-  border-radius: 2px;
-  object-fit: cover;
 }
 
 .main-description p {
@@ -270,14 +253,7 @@ h3 {
   }
 
   .header {
-    grid-template-columns: 1fr;
-    gap: var(--space-5);
     margin: var(--space-10) 0;
-  }
-
-  .portrait {
-    width: 128px;
-    height: 128px;
   }
 
   h1 {

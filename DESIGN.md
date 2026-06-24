@@ -2,7 +2,7 @@
 
 ## 1. Atmosphere & Identity
 
-A restrained academic personal site inspired by the `msaveski/www_personal` structure: profile header, thin section navigation, concise bio, education, publication entries, and links. The signature is low-friction readability: narrow measure, simple typography, thin rules, and almost no decorative styling.
+A restrained academic personal site inspired by the `msaveski/www_personal` structure: text header, thin section navigation, concise bio, education, publication entries, and links. The signature is low-friction readability: narrow measure, simple typography, thin rules, and almost no decorative styling.
 
 ## 2. Color
 
@@ -71,7 +71,7 @@ All spacing derives from a base of 4px.
 ### Grid
 
 - Max content width: 800px
-- Header layout: 160px portrait plus flexible text column on desktop
+- Header layout: text-only academic identity block
 - Mobile layout: single column with horizontally scrollable nav
 
 ### Rules
@@ -84,9 +84,9 @@ All spacing derives from a base of 4px.
 
 ### Profile Header
 
-- Structure: portrait link and text description.
-- Variants: desktop two-column, mobile stacked.
-- Accessibility: descriptive portrait alt, real links.
+- Structure: name, role, research area, and profile links.
+- Variants: standard only.
+- Accessibility: real links, text-first identity.
 
 ### Section Nav
 
