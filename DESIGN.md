@@ -112,6 +112,15 @@ All spacing derives from a base of 4px.
 - Accessibility: title link is the main action.
 - Motion: 200ms transform and border-color transition.
 
+### Publication Entry
+
+- Structure: ordered-list item with date, linked paper title, and venue metadata.
+- Variants: standard only.
+- Spacing: --space-6 padding, --space-4 internal gap.
+- States: linked title hover and focus-visible.
+- Accessibility: semantic ordered list, machine-readable time element.
+- Motion: link color transition only.
+
 ## 6. Motion & Interaction
 
 ### Timing
@@ -139,4 +148,3 @@ Borders-only with light tonal shifts.
 |------|-------|-------|
 | Default | 1px solid var(--border-default) | Cards, dividers |
 | Subtle | 1px solid var(--border-subtle) | Soft separations |
-
