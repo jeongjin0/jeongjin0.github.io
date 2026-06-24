@@ -100,6 +100,12 @@ All spacing derives from a base of 4px.
 - Variants: standard only.
 - Accessibility: linked title plus explicit Paper button.
 
+### Education Entry
+
+- Structure: ordered-list item with date range and institution/program details.
+- Variants: standard only.
+- Accessibility: text-first, no decorative logo dependency.
+
 ### Project Entry
 
 - Structure: title and paragraph with a left rule.

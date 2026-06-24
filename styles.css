@@ -226,6 +226,7 @@ h3 {
   color: var(--text-secondary);
 }
 
+.education-list,
 .vita-list {
   display: grid;
   gap: var(--space-3);
@@ -234,6 +235,7 @@ h3 {
   list-style: none;
 }
 
+.education-list li,
 .vita-list li {
   display: grid;
   grid-template-columns: 96px minmax(0, 1fr);
@@ -313,6 +315,7 @@ h3 {
     padding: var(--space-10) 0;
   }
 
+  .education-list li,
   .vita-list li {
     grid-template-columns: 1fr;
     gap: var(--space-1);
