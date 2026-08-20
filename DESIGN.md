@@ -2,7 +2,7 @@
 
 ## 1. Atmosphere & Identity
 
-A restrained academic personal site inspired by the `msaveski/www_personal` structure: text header, thin section navigation, concise bio, education, publication entries, and links. The signature is low-friction readability: narrow measure, simple typography, thin rules, and almost no decorative styling.
+A restrained academic personal site inspired by the `msaveski/www_personal` structure: portrait-led header, thin section navigation, concise bio, education, illustrated publication entries, and links. The signature is low-friction readability: narrow measure, simple typography, thin rules, and research figures used as the primary visual language.
 
 ## 2. Color
 
@@ -71,20 +71,21 @@ All spacing derives from a base of 4px.
 ### Grid
 
 - Max content width: 800px
-- Header layout: text-only academic identity block
+- Header layout: 160px portrait beside the academic identity block
+- Publication layout: 240px representative figure beside paper metadata
 - Mobile layout: single column with horizontally scrollable nav
 
 ### Rules
 
 - No nested cards.
 - Sections are separated by rules, not panels.
-- Publication and education entries are lists of text, not tiles.
+- Publication and education entries remain flat lists rather than nested cards.
 
 ## 5. Components
 
 ### Profile Header
 
-- Structure: name, role, research area, and profile links.
+- Structure: LinkedIn portrait, name, role, research area, and profile links.
 - Variants: standard only.
 - Accessibility: real links, text-first identity.
 
@@ -96,7 +97,7 @@ All spacing derives from a base of 4px.
 
 ### Paper
 
-- Structure: article with linked title, author line, venue line, and button links.
+- Structure: representative paper figure, linked title, author line, venue line, and button links.
 - Variants: standard only.
 - Accessibility: linked title plus explicit Paper button.
 
